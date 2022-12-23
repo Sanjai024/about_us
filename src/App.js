@@ -14,10 +14,10 @@ function App() {
         <img className="App-img1"  align="left" src={a2z} alt="logo" width="90px" height="50px"/>
         <div className='isearch'><input type="text" class='search' name="text" value="search.."></input>
         <input type="submit" name="submit" class="submit" value="Search"/></div>
-        <div className="top"><a className='headlink' href='https://www.google.com/' ><h3 className="headattri">HOME</h3></a></div>
-        <div className="top"><a className='headlink' href='https://www.google.com/' ><h3 className="headattri">About us</h3></a></div>
-        <div className="top"><a className='headlink' href='https://www.google.com/' ><h3 className="headattri">Know more</h3></a></div>
-        <div className="top"><a className='headlink' href='https://www.google.com/' ><h3 className="headattri">contactUs</h3></a></div>
+        <div className="top"><a className='headlink' href='http://localhost:3000/a2zlearning_home' ><h3 className="headattri">HOME</h3></a></div>
+        <div className="top"><a className='headlink' href='https://sanjai024.github.io/about_us/' ><h3 className="headattri">About us</h3></a></div>
+        <div className="top"><a className='headlink' href='https://sanjai024.github.io/about_us/' ><h3 className="headattri">Know more</h3></a></div>
+        <div className="top"><a className='headlink' href='#footer' ><h3 className="headattri">contactUs</h3></a></div>
       </header>
   <div class="content">
 	<table><tr><td height="90px"></td></tr></table>
@@ -64,7 +64,7 @@ function App() {
 	<div className="sz"><td><img src="https://about.udemy.com/wp-content/uploads/2021/07/box_logo.png" alt="img" height="80px" width="100px"></img></td>&emsp;&emsp;</div>
 	</tr>
 </table>
-<footer >
+<footer id="footer">
 <table>
 <tr>
 <td width="800px" height="5px" colspan="4"></td>
